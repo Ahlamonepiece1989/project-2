@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+
+.color-nav{
+
+  background-color: whitesmoke;
+}
+
+
+
+
+.product {
+  &-img-wrapper {
+   margin: -15px -15px 0;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid @panel-default-border;
+  }
+}
+
+
+
